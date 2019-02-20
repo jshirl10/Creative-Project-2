@@ -1,11 +1,9 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1446329360995-b4642a139973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=970&q=80");
   background-repeat: no-repeat;
-  background-size: 100%;
-}
-.background-image {
-  height: 100%;
-  width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .nav {
   padding : 15px !important;
@@ -20,7 +18,7 @@ body {
 }
 .header {
   background-color: #F5F3EF;
-  width: 1100px;
+  width: 85%;
   border: 5px solid #489F97;
   padding: 1%;
   margin-left: auto;
@@ -33,7 +31,7 @@ body {
 }
 .explanation {
   background-color: #F5F3EF;
-  width: 900px;
+  width: 70%;
   border: 5px solid #489F97;
   padding: 1%;
   margin-left: auto;
@@ -47,7 +45,7 @@ body {
 }
 .about {
   background-color: #F5F3EF;
-  width: 1200px;
+  width: 90%;
   border: 5px solid #489F97;
   padding: 1%;
   margin-left: auto;
@@ -60,7 +58,7 @@ body {
 }
 .submitEquation {
   background-color: #F5F3EF;
-  width: 900px;
+  width: 70%;
   border: 5px solid #489F97;
   padding: 1%;
   margin-left: auto;
@@ -95,7 +93,7 @@ body {
 }
 #mathResults {
   background-color: #F5F3EF;
-  width: 600px;
+  width: 55%;
   border: 5px solid #489F97;
   padding: 1%;
   margin-left: auto;
@@ -115,7 +113,7 @@ hr {
 }
 .about-grid div {
   background-color: #F5F3EF;
-  width: 500px;
+  width: 55%;
   border: 5px solid #489F97;
   padding: 1%;
   margin-left: auto;
